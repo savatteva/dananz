@@ -1,6 +1,6 @@
 import i18next from "i18next";
 import { initReactI18next } from "react-i18next";
-import mainPage from "../public/locales/ru/mainPage.json";
+import mainPage from "../public/locales/en/mainPage.json";
 
 const resources = {
   en: {
