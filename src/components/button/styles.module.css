@@ -1,0 +1,31 @@
+@import "../../css/variables.css";
+
+.button {
+  padding: 14px 32px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.primary {
+  background-color: var(--main-color);
+  color: var(--white);
+  border: none;
+}
+
+.primary:hover {
+  background-color: var(--hover-on-main-color);
+}
+
+.whiteButton {
+  background-color: var(--white);
+}
+
+.outline {
+  background-color: transparent;
+  border: 1px solid var(--outline-color);
+  color: var(--outline-button-text-color);
+}
+
+.outline:hover {
+  background-color: var(--outline-hover);
+}
