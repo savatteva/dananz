@@ -1,0 +1,45 @@
+@import "../../css/variables.css";
+
+.typography {
+  font-family: "Poppins", sans-serif;
+}
+
+.mainColor {
+  color: var(--main-text-color);
+}
+
+.lightColor {
+  color: var(--light-text-color);
+}
+
+.weight700 {
+  font-weight: 700;
+}
+
+.weight600 {
+  font-weight: 600;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.regularSize {
+  font-size: 18px;
+}
+
+.littleSize {
+  font-size: 16px;
+}
+
+.size24 {
+  font-size: 24px;
+}
+
+.size36 {
+  font-size: 36px;
+}
+
+.size72 {
+  font-size: 72px;
+}
