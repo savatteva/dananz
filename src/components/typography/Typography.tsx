@@ -7,7 +7,7 @@ const Typography = ({
   text,
   color = "mainColor",
   weight = "regular",
-  size = "regularSize",
+  size = "size18",
 }: TTypographyProps) => {
   return (
     <Tag
