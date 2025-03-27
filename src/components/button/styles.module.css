@@ -4,6 +4,12 @@
   padding: 14px 32px;
   cursor: pointer;
   transition: background-color 0.5s;
+  background-color: transparent;
+}
+
+.solid {
+  border: none;
+  padding: 0;
 }
 
 .primary {
@@ -21,7 +27,6 @@
 }
 
 .outline {
-  background-color: transparent;
   border: 1px solid var(--outline-color);
   color: var(--outline-button-text-color);
 }
