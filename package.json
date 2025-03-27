@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "format": "prettier --write .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -16,7 +17,8 @@
     "i18next": "^24.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-i18next": "^15.4.1"
+    "react-i18next": "^15.4.1",
+    "react-router": "^7.4.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.6",
@@ -39,6 +41,7 @@
     "eslint-plugin-storybook": "^0.12.0",
     "globals": "^15.15.0",
     "playwright": "^1.51.1",
+    "prettier": "3.5.3",
     "storybook": "^8.6.10",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",

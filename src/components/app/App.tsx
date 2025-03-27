@@ -1,16 +1,15 @@
-import { useTranslation } from "react-i18next"
-import styles from "./styles.module.css"
-import { Typography } from "../typography";
+import { Route, Routes } from "react-router";
+import styles from "./styles.module.css";
+import { MainPage } from "../../pages";
 
 function App() {
-  const { t } = useTranslation("mainPage");
   return (
     <>
-      <p className={styles.test}>{t("test")}</p>
-
-      <Typography text="jib"/>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
