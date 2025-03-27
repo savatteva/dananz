@@ -1,4 +1,4 @@
-import { TTypographyProps } from "./type"
+import type { TTypographyProps } from "./type"
 import styles from "./styles.module.css"
 import clsx from "clsx"
 
