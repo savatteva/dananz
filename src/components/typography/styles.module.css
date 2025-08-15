@@ -1,0 +1,58 @@
+@import '@css/variables.css';
+
+.typography {
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainColor {
+  color: var(--main-text-color);
+}
+
+.lightColor {
+  color: var(--light-text-color);
+}
+
+.white {
+  color: var(--white);
+}
+
+.weight700 {
+  font-weight: 700;
+}
+
+.weight600 {
+  font-weight: 600;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.weight500 {
+  font-weight: 500;
+}
+
+.xxs {
+  font-size: var(--font-size-xxs);
+}
+
+.xs {
+  font-size: var(--font-size-xs);
+}
+
+.s {
+  font-size: var(--font-size-s);
+}
+
+.m {
+  font-size: var(--font-size-m);
+}
+
+.l {
+  font-size: var(--font-size-l);
+}
+
+.xl {
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+}
