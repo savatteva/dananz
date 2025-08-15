@@ -10,6 +10,22 @@
   gap: 74px;
 }
 
+.rightMenu__item {
+  position: relative;
+  text-decoration: none;
+}
+
+.rightMenu__item::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+}
+
+.rightMenu__item_active::after {
+  background-color: var(--main-color);
+}
+
 .burgerMenu {
   display: flex;
   flex-direction: column;
