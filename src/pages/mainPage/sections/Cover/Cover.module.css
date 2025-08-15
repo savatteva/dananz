@@ -1,0 +1,26 @@
+.cover {
+  height: 100vh;
+  padding: 160px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.cover__heading {
+  max-width: 680px;
+}
+
+.cover::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 55%;
+  height: 2px;
+  background-color: var(--main-text-color);
+}
+
+.cover__img {
+  background-image: url('@assets/main_page/cover_phote.png');
+  max-height: 515px;
+}
