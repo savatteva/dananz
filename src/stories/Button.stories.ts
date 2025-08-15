@@ -1,4 +1,4 @@
-import { Button, Typography } from "../components";
+import { Button, Typography } from "@components";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {

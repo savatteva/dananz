@@ -4,6 +4,6 @@ type TButtonVariant = "primary" | "outline" | "whiteButton" | "solid";
 
 export type TButtonProps = {
   children?: string | ReactNode;
-  variant: TButtonVariant;
+  variant?: TButtonVariant;
   onClick?: () => void;
 };

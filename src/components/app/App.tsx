@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import styles from "./styles.module.css";
-import { MainPage } from "../../pages";
-import { Header } from "../header";
+import { Header } from "@widgets";
+import { MainPage } from "@pages";
 
 function App() {
   return (

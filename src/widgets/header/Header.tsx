@@ -1,9 +1,10 @@
 import { FC, useState } from "react";
 import { NavLink } from "react-router";
 import styles from "./styles.module.css";
-import { Typography } from "../typography";
+
 import { useTranslation } from "react-i18next";
-import { Button } from "../button";
+
+import { Button, Typography } from "@components";
 
 const Header: FC = () => {
   const [isOpenBurger, setIsOpenBurger] = useState(false);

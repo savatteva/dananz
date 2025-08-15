@@ -1,4 +1,4 @@
-import { Typography } from "../components";
+import { Typography } from "@components";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {
