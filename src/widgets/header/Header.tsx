@@ -1,15 +1,15 @@
-import { FC, useState } from "react";
-import { NavLink } from "react-router";
-import styles from "./styles.module.css";
+import { FC, useState } from 'react';
+import { NavLink } from 'react-router';
+import styles from './styles.module.css';
 
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
-import { Button, Typography } from "@components";
-import clsx from "clsx";
+import { Button, Typography } from '@components';
+import clsx from 'clsx';
 
 const Header: FC = () => {
   const [isOpenBurger, setIsOpenBurger] = useState(false);
-  const { t } = useTranslation("mainPage");
+  const { t } = useTranslation('mainPage');
 
   return (
     <header>
@@ -18,31 +18,29 @@ const Header: FC = () => {
           <img src="/assets/logo.svg" alt="dananz's logo" />
         </NavLink>
         <div className={isOpenBurger ? styles.burgerMenu : styles.rightMenu}>
-          <NavLink to="/" className={({ isActive }) => clsx(styles.rightMenu__item, isActive && styles.rightMenu__item_active)}>
-            <Typography text={t("home")} size="size16" />
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              clsx(styles.rightMenu__item, isActive && styles.rightMenu__item_active)
+            }
+          >
+            <Typography text={t('home')} size="size16" />
           </NavLink>
           <NavLink to="/">
-            <Typography text={t("about_us")} size="size16" />
+            <Typography text={t('about_us')} size="size16" />
           </NavLink>
           <NavLink to="/">
-            <Typography text={t("services")} size="size16" />
+            <Typography text={t('services')} size="size16" />
           </NavLink>
           <NavLink to="/">
             <Button variant="primary">
-              <Typography
-                text={t("contact_us")}
-                color="white"
-                size="size16"
-              />
+              <Typography text={t('contact_us')} color="white" size="size16" />
             </Button>
           </NavLink>
         </div>
 
         <div className={styles.mobileMenu}>
-          <Button
-            variant="solid"
-            onClick={() => setIsOpenBurger(!isOpenBurger)}
-          >
+          <Button variant="solid" onClick={() => setIsOpenBurger(!isOpenBurger)}>
             {isOpenBurger ? (
               <img src="/assets/svg/close.svg" alt="" />
             ) : (

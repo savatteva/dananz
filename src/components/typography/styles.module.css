@@ -1,7 +1,7 @@
-@import "@css/variables.css";
+@import '@css/variables.css';
 
 .typography {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .mainColor {

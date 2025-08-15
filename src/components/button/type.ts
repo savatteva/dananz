@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
-type TButtonVariant = "primary" | "outline" | "whiteButton" | "solid";
+type TButtonVariant = 'primary' | 'outline' | 'whiteButton' | 'solid';
 
 export type TButtonProps = {
   children?: string | ReactNode;
