@@ -7,6 +7,7 @@ import { bannerElements } from '@pages/mainPage/helpers/consts';
 
 export const Cover: FC = () => {
   const { t } = useTranslation('mainPage');
+
   return (
     <section className={styles.cover}>
       <div className={styles.cover__heading}>
@@ -17,7 +18,13 @@ export const Cover: FC = () => {
         alt="cover dananz"
         className={styles.cover__img}
       />
-      <Banner elements={bannerElements} />
+      <div className={styles.cover__banner}>
+        <Banner elements={bannerElements} />
+      </div>
+      <div className={styles.cover__sign}>
+        <p>{t('currentYear')}</p>
+        <p>{t('all_rigths')}</p>
+      </div>
     </section>
   );
 };

@@ -23,4 +23,19 @@
 .cover__img {
   background-image: url('@assets/main_page/cover_phote.png');
   max-height: 515px;
+  position: relative;
+}
+
+.cover__banner {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+}
+
+.cover__sign {
+  transform: rotate(-90deg);
+  max-width: 170px;
+  position: absolute;
+  bottom: 45%;
+  right: -4%;
 }

@@ -5,9 +5,9 @@ export const Banner = ({ elements }: { elements: TElementBanner[] }) => {
     <ul className={styles.banner}>
       {elements.map((element) => {
         return (
-          <li>
-            <p>{element.mainTitle}</p>
-            <p>{element.subTitle}</p>
+          <li key={element.mainTitle} className={styles.banner__item}>
+            <p className={styles.banner__item_mainTitle}>{element.mainTitle}</p>
+            <p className={styles.banner__item_subTitle}>{element.subTitle}</p>
           </li>
         );
       })}
