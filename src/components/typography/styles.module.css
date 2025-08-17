@@ -1,7 +1,7 @@
-@import "@css/variables.css";
+@import '@css/variables.css';
 
 .typography {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .mainColor {
@@ -32,26 +32,27 @@
   font-weight: 500;
 }
 
-.regularSize {
-  font-size: 18px;
+.xxs {
+  font-size: var(--font-size-xxs);
 }
 
-.littleSize {
-  font-size: 16px;
+.xs {
+  font-size: var(--font-size-xs);
 }
 
-.size24 {
-  font-size: 24px;
+.s {
+  font-size: var(--font-size-s);
 }
 
-.size36 {
-  font-size: 36px;
+.m {
+  font-size: var(--font-size-m);
 }
 
-.size72 {
-  font-size: 72px;
+.l {
+  font-size: var(--font-size-l);
 }
 
-.size14 {
-  font-size: 14px;
+.xl {
+  font-size: var(--font-size-xxl);
+  line-height: 140%;
 }

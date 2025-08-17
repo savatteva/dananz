@@ -10,6 +10,8 @@
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
       "@widgets/*": ["src/widgets/*"],
-      "@css/*": ["src/csss/*"],
-    }}
+      "@css/*": ["src/css/*"],
+      "@assets/*": ["public/assets/*"]
+    }
+  }
 }

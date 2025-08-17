@@ -7,4 +7,12 @@
   --outline-color: #3c3c3c;
   --outline-button-text-color: #333333;
   --outline-hover: #eaebf2;
+
+  --font-size-xs: 14px;
+  --font-size-xs: 16px;
+  --font-size-s: 18px;
+  --font-size-m: 24px;
+  --font-size-l: 36px;
+  --font-size-xl: 52px;
+  --font-size-xxl: 72px;
 }

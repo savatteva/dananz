@@ -1,3 +1,4 @@
-import { Header } from "./header";
+import { Banner } from './banner';
+import { Header } from './header';
 
-export {Header}
+export { Header, Banner };
